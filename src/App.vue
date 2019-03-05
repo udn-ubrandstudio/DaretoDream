@@ -11,21 +11,23 @@
       <share href="https://udn.com/upf/ubrand/2019_data/DaretoDream/index.html"></share>
       <br>
       <div class="title-track-same-month">
-         <youtube src="https://www.youtube.com/embed/GwF4fFnxTkg"></youtube>
+         <youtube src="https://www.youtube.com/embed/i035D6GbHWo"></youtube>
         <div class="content">
           <a :href="hotVideo">
             <div class="content-item new">
               NEW
             </div>
             <div class="content-item slogan">
-              <h3>Duncan: 有生之年<br>要畫出一幅讓世界看見的作品</h3>
+              <h3>征服殘酷街頭<br>Angel：要把心中音樂帶給世界</h3>
             </div>
           </a>
         </div>
       </div>
       <br>
       <br>
-      <p>Dare to Dream意味勇敢追夢，超人氣圖文創作者Duncan曾說過「夢想再高，你還是碰得到！」聯合報採訪6位夢想人物故事，從圖文創作家、饒舌歌手、街頭小提琴手到滑輪新星等，每月帶你看一篇逐夢故事，不管你的夢想多小，只要敢做夢，都有實現的可能！</p>
+      <p>夢想是迷路時指引人前進的微光，對有些人來說，更是每天起床的動力，你找到讓你心底產生悸動的夢想了嗎？</p>
+      <br>
+      <p>超人氣圖文創作者Duncan曾說過「夢想再高，你還是碰得到！」聯合報採訪6位夢想人物，有被父親反對以作畫維生的圖文創作家、也有頂著高學歷仍堅持做饒舌、上街頭表演的音樂人，每月帶你看一篇逐夢故事。他們設定目標，沒有一步登天的本事，有的只是在日常中努力再努力，用堅持的信念實踐理想，這些人要告訴你，不管夢想多小，只要開始做，就有實現的可能！</p>
       <br>
       <br>
       </content-container>
@@ -56,16 +58,18 @@
             </li>
           </ul>
         </div>
-      
+
       <content-container>
       <br>
       <videoBox id="duncan" :videoInfo="videosInfo[0]"></videoBox>
       <br>
       <videoBox id="br" :videoInfo="videosInfo[1]"></videoBox>
       <br>
+      <videoBox id="angel" :videoInfo="videosInfo[2]"></videoBox>
+      <br>
       </content-container>
       <content-container  style="background-image: linear-gradient(to bottom, #f2f2f2, rgba(255, 255, 255, 0));padding-top: 1px;">
-      <div class="share-and-logo"> 
+      <div class="share-and-logo">
         <div class="share">
           <share href="https://udn.com/upf/ubrand/2019_data/DaretoDream/index.html"></share>
         </div>
@@ -73,7 +77,7 @@
           <logo use-ubrand="yes" use-vision='no'>
             <div>
               <img :src="logoDown" alt="">
-            </div>         
+            </div>
           </logo>
         </div>
       </div>
@@ -83,10 +87,10 @@
         <div>文字採訪：盧巧梅、林筱穎</div>
         <div>影音製作：劉宜峰</div>
         <div>視覺設計：呂宗原</div>
-        <div>網頁製作：胡凈悟</div>
+        <div>網頁製作：胡凈悟、吳偉賢</div>
         <div>議題行銷：張乃文、陳欣媛、王敏霏</div>
-        <div>監製：潘如瑩、董谷音、蔡幸怡、陳曼薇</div>
-        <div>2019.2.15</div>
+        <div>監製：潘如瑩、董谷音、蔡幸怡、陳曼薇、蕭銘志</div>
+        <div>2019.3.15</div>
       </editor>
       <p><br></p>
       <fb-comment href="https://udn.com/upf/ubrand/2019_data/DaretoDream/index.html"></fb-comment>
@@ -116,7 +120,7 @@ export default {
       coverTitle: require('@/../static/cover_title.svg'),
       logo: require('@/../static/logo_web.svg'),
       logoDown: require('@/../static/logo.png'),
-      hotVideo: 'https://udn.com/upf/ubrand/2019_data/DaretoDream_Duncan/index.html',
+      hotVideo: 'https://dc.udn.com/nereus/TEK1903F0001/DaretoDream_Angel/index.html',
       profiles: [
       {
         id: 'duncan_btn',
@@ -137,13 +141,13 @@ export default {
         isLock: false
       },
       {
-        id: 'anonymous1_btn',
-        idTo: 'anonymous1',
-        title: '3月',
-        name: '即將推出',
-        profile: require('@/../static/profiles/lock.png'),
-        profile_web: require('@/../static/profiles/lock_web.png'),
-        isLock: true
+        id: 'angel_btn',
+        idTo: 'angel',
+        title: '小提琴手',
+        name: 'Angel',
+        profile: require('@/../static/profiles/angel.png'),
+        profile_web: require('@/../static/profiles/angel_web.png'),
+        isLock: false
       },
       {
         id: 'anonymous2_btn',
@@ -192,6 +196,16 @@ export default {
           img_web: require('@/../static/flag2_web.png'),
           linkTo: 'https://udn.com/upf/ubrand/2019_data/DaretoDream_BR/index.html',
           video: 'https://www.youtube.com/embed/p54sxKiKghM'
+        },
+        {
+          id: 'angel',
+          name: '－Angel－',
+          number: '03',
+          slogan: '征服殘酷街頭<br>要把心中音樂帶給世界',
+          img: require('@/../static/flag3.png'),
+          img_web: require('@/../static/flag3_web.png'),
+          linkTo: 'https://dc.udn.com/nereus/TEK1903F0001/DaretoDream_Angel/index.html',
+          video: 'https://www.youtube.com/embed/i035D6GbHWo'
         }
       ]
     }
@@ -202,7 +216,7 @@ export default {
       let label = "[DaretoDream][" + idTo + "][內滾到" + idTo + "]"
 
       if(isLock) {
-        
+
         label = "[DaretoDream][" + idTo + "][目前無內滾]"
 
         window.ga("send", {
@@ -303,7 +317,7 @@ html, body {
           @media screen and (min-width: 1024px) {
             text-align: center;
           }
-          
+
           .content-item {
             display: inline-block;
           }
@@ -423,7 +437,7 @@ html, body {
             10%, 90% {
               transform: translate(1px, 0);
             }
-            
+
             20%, 80% {
               transform: translate(2px, 0);
             }
@@ -459,7 +473,7 @@ html, body {
         padding: 0;
         text-indent: 0;
         list-style-type: 0;
-        li {    
+        li {
           overflow: hidden;
           width: 30%;
           display: flex;
@@ -503,7 +517,7 @@ html, body {
             10%, 90% {
               transform: translate3d(-1px, 0, 0);
             }
-            
+
             20%, 80% {
               transform: translate3d(2px, 0, 0);
             }
