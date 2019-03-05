@@ -18,7 +18,7 @@
               NEW
             </div>
             <div class="content-item slogan">
-              <h3>征服殘酷街頭<br>Angel：要把心中音樂帶給世界</h3>
+              <h3>一把提琴獨闖6國<br>她用音樂征服殘酷街頭</h3>
             </div>
           </a>
         </div>
@@ -67,8 +67,11 @@
       <br>
       <videoBox id="angel" :videoInfo="videosInfo[2]"></videoBox>
       <br>
+      <br>
+      <br>
       </content-container>
       <content-container  style="background-image: linear-gradient(to bottom, #f2f2f2, rgba(255, 255, 255, 0));padding-top: 1px;">
+      <br><br>
       <div class="share-and-logo">
         <div class="share">
           <share href="https://udn.com/upf/ubrand/2019_data/DaretoDream/index.html"></share>
@@ -201,7 +204,7 @@ export default {
           id: 'angel',
           name: '－Angel－',
           number: '03',
-          slogan: '征服殘酷街頭<br>要把心中音樂帶給世界',
+          slogan: '一把提琴獨闖6國<br>她用音樂征服殘酷街頭',
           img: require('@/../static/flag3.png'),
           img_web: require('@/../static/flag3_web.png'),
           linkTo: 'https://dc.udn.com/nereus/TEK1903F0001/DaretoDream_Angel/index.html',
