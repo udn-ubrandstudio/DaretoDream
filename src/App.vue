@@ -11,7 +11,7 @@
       <share href="https://udn.com/upf/ubrand/2019_data/DaretoDream/index.html"></share>
       <br>
       <div class="title-track-same-month">
-         <youtube src="https://www.youtube.com/embed/i035D6GbHWo"></youtube>
+        <youtube src="https://www.youtube.com/embed/CJNp2fLVez0"></youtube>
         <div class="content">
           <a :href="hotVideo">
             <div class="content-item new">
@@ -208,7 +208,7 @@ export default {
           img: require('@/../static/flag3.png'),
           img_web: require('@/../static/flag3_web.png'),
           linkTo: 'https://dc.udn.com/nereus/TEK1903F0001/DaretoDream_Angel/index.html',
-          video: 'https://www.youtube.com/embed/i035D6GbHWo'
+          video: 'https://www.youtube.com/embed/CJNp2fLVez0'
         }
       ]
     }
