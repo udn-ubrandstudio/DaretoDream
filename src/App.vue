@@ -11,7 +11,7 @@
       <share href="https://udn.com/upf/ubrand/2019_data/DaretoDream/index.html"></share>
       <br>
       <div class="title-track-same-month">
-        <youtube src="https://www.youtube.com/embed/CJNp2fLVez0"></youtube>
+        <youtube src="https://www.youtube.com/embed/IiaNGVROjNA"></youtube>
         <div class="content">
           <a :href="hotVideo">
             <div class="content-item new">
@@ -123,7 +123,7 @@ export default {
       coverTitle: require('@/../static/cover_title.svg'),
       logo: require('@/../static/logo_web.svg'),
       logoDown: require('@/../static/logo.png'),
-      hotVideo: 'https://dc.udn.com/nereus/TEK1903F0001/DaretoDream_Angel/index.html',
+      hotVideo: 'https://udn.com/upf/ubrand/2019_data/DaretoDream_Angel/index.html',
       profiles: [
       {
         id: 'duncan_btn',
@@ -207,8 +207,8 @@ export default {
           slogan: '一把提琴獨闖6國<br>她用音樂征服殘酷街頭',
           img: require('@/../static/flag3.png'),
           img_web: require('@/../static/flag3_web.png'),
-          linkTo: 'https://dc.udn.com/nereus/TEK1903F0001/DaretoDream_Angel/index.html',
-          video: 'https://www.youtube.com/embed/CJNp2fLVez0'
+          linkTo: 'https://udn.com/upf/ubrand/2019_data/DaretoDream_Angel/index.html',
+          video: 'https://www.youtube.com/embed/IiaNGVROjNA'
         }
       ]
     }
